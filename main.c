@@ -44,6 +44,7 @@ int main(void){
             exit(0);
         }
     }
+    close(fd);
     free_array(parameters);
     return 0;
 }
